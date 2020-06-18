@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Home Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .header {
+            display: flex;
+            background-color: #00adb5;
+            justify-content: space-around;
+            padding: 50px 0 50px 0;
+            color: white;
+        }
+        .profile {
+            display: flex;
+            background-color: #eeeeee;
+            padding: 70px 0 70px 0;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            color: #84a9ac;
+        }
+        .myPic {
+            border-radius: 10px 50px 10px 50px;
+            border: 4px solid #393e46;
+        }
+        .divider {
+            height: 5px;
+            background-color: #393e46;
+        }
+        .divider-profile {
+            height: 7px;
+            background-color: #e8e4e1;
+        }
+        .divider-drop {
+            height: 7px;
+            background-color: #00adb5;
+        }
+        .divider-games {
+            height: 7px;
+            background-color: #ffd3b6;
+        }
+        .divider-social {
+            height: 7px;
+            background-color: #4e696b;
+        }
+        .divider-footer {
+            height: 7px;
+            background-color: darkgrey;
+        }
+        .drop {
+            display: flex;
+            background-color: #393e46;
+            padding: 70px 0 70px 0;
+            flex-direction: column;
+            align-items: center;
+            color: #00adb5;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .para {
+            margin: 20px 50px 0 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .para b {
+            color: rgb(235, 109, 109);
+        }
+        .games {
+            display: flex;
+            background-color: #ff9c71;
+            padding: 70px 0 70px 0;
+            flex-direction: column;
+            align-items: center;
+            color: white; 
+        }
+        .socials {
+            display: flex;
+            background-color: #e7dfd5;
+            padding: 70px 0 70px 0;
+            flex-direction: column;
+            align-items: center;
+            color: white; 
+        }
+        .footer {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: grey;
+        }
+        ul#menu li {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER | START -->
+    <div class="header">
+        <h1>Home</h1>
+        <ul class="nav nav-pills">
+            <li class="nav-item color">
+                <a class="nav-link" href="./Home.html" style="color: white;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Trouphies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#" style="color: white; background-color: #393e46;">Join Club</a>
+            </li>
+        </ul>
+    </div>
+    <!-- HEADER | END -->
+    <div class="divider"></div>
+    <!-- BODY | START -->
+    <!-- profile-->
+    <section>
+        <div class="profile">
+            <h4 style="color: #e8e4e1;">Who am i?</h4>
+            <br>
+            <img class="myPic" src="./assets/eidSelfy.JPG" alt="waleed's image" width=450px>
+            <br>
+            <br>
+            <h1>Al-Waleed Talal ALShammari</h1>
+        </div>
+        <div class="divider-profile"></div>
+    </section>
+    <!-- application -->
+    <section>
+        <div class="drop">
+            <span class="border-0"></span>
+            <h1 style="color: rgba(209, 124, 124, 0.795);">Drop</h1>
+            <p style="color: rgba(255, 255, 255, 0.685); font-size: 13px;"> my very first iOS Applicaiton <b style="font-weight: bold; font-size: 9px;">(which was never lunched)</b></p>
+            <h3>The evolution of Drop icons</h3>
+            <span class="icons">
+                <img src="./assets/bloodicon.png" alt="icon" width=50px>
+                <img src="./assets/blood-2.png" alt="icon" width=70px>
+                <img src="./assets/DropIconOld.png" alt="old drop icon" width=90px>
+                <img src="./assets/DropIcon.png" alt="drop icon" width=110px>
+            </span>
+            <div class="para">
+                <h2>INFO</h2>
+                <p>The collection of <b>blood</b> is not a random process, but is related to the actual need for <b>blood</b> and drainage,
+                    and the success of this process lies in facilitating the arrival of samples to the places where the <b>blood</b>
+                    collection is concentrated. And due to the lack of awareness in society today about the importance of 
+                    donating <b>blood</b>, and the lack of <b>blood</b> stores in hospitals, we created a <b style="color: #5fb6bb">Drop</b> application. A <b style="color: #5fb6bb;">Drop</b> application
+                    that acts as a mediator between the donor and the <b>blood</b> bank. A <b style="color: #5fb6bb;">Drop</b> that makes it easier for the donor to 
+                    donate while at home via trucks that transport samples from the donor’s location to the <b>blood</b> bank. 
+                    The application includes the main application page that shows advertisements of the latest initiatives and 
+                    seminars, personal pages of users and most users who donate <b>blood</b> and a map that includes the locations of 
+                    all hospitals that receive donations.
+                </p>
+            </div>
+        </div>
+        <div class="divider-drop"></div>
+    </section>
+    <!-- socials -->
+    <section>
+        <div class="socials">
+            <span class="border-0"></span>
+            <h1 style="color: #4e696b;">Social Media</h1>
+            <p style="color: #84a9acab; font-size: 13px;"> Complete waste of time 
+                <b style="font-weight: bold; font-size: 9px;">(but)</b>
+            </p>
+            <h3>Here's where i waste my time</h3>
+            <span class="icons">
+                <a href="https://error"><img src="./assets/social/snapchat.png" alt="icon" width=100px></a>
+                <a href="https://www.instagram.com/waliiidals/"><img src="./assets/social/instagram.png" alt="icon" width=100px></a>
+                <a href="https://twitter.com/waliiidals/"><img src="./assets/social/twitter.png" alt="old drop icon" width=100px></a>
+                <a href="https://github.com/WaliiidAls"><img src="./assets/social/github-sign.png" alt="drop icon" width=100px></a>
+            </span>
+        </div>
+        <div class="divider-social"></div>
+    </section>
+    <!-- games -->
+    <section>
+        <div class="games">
+            <span class="border-0"></span>
+            <h1 style="color: #ececec;">Games</h1>
+            <p style="color: #ffd3b6; font-size: 13px;"> sometimes i play games 
+                <b style="font-weight: bold; font-size: 9px;">(most of my time)</b>
+            </p>
+            <h3>Here's where i waste my time</h3>
+            <span class="icons">
+                <img src="./assets/games/Lol.png" alt="icon" width=100px>
+                <img src="./assets/games/Overwatch.png" alt="icon" width=100px>
+                <img src="./assets/games/ark.png" alt="old drop icon" width=100px>
+                <img src="./assets/games/rocketleague.png" alt="drop icon" width=100px>
+                <img src="./assets/games/CSGO.png" alt="drop icon" width=100px>
+                <img src="./assets/games/Minecraft.png" alt="drop icon" width=100px>
+                <img src="./assets/games/pubg.png" alt="drop icon" width=100px>
+                <img src="./assets/games/cod.png" alt="drop icon" width=100px>
+                <img src="./assets/games/rainbow.png" alt="drop icon" width=100px>
+            </span>
+        </div>
+        <div class="divider-games"></div>
+    </section>
+    <!-- BODY | END -->
+    <!-- FOOTER | START -->
+    <footer>
+        <div class="footer">
+            <ul id="menu">
+                <li>Home</li>
+                -
+                <li>My Story</li>
+                -
+                <li>Blog</li>
+                -
+                <li>Videos</li>
+                -
+                <li>Podcast</li>
+                -
+                <li>Events</li>
+                -
+                <li>Books</li>
+                -
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="divider-footer"></div>
+    </footer>
+</body>
+</html>
